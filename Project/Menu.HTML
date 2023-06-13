@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    body{
+        background-image: url("C Shop.jpg");
+          margin: 0;
+        }
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: blanchedalmond;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #7c4301;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #b0572e;
+  color: black;
+}
+div.gallery {
+  margin: 50px;
+  border: 5px solid black;
+  float: right;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 5px solid black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+    <ul>
+        <p><img src="Cat Cafe.jpg" alt="Cat Cafe" width="220" length="50"></p>
+        <li><a href="HomePage.HTML"target="_blank">Home</a></li>
+        <li><a href="Account.HTML"target="_blank">Log in / Account</a></li>
+        <li><a class="active" href="Menu.HTML"target="_blank">Menu</a></li>
+        <li><a href="About Us.HTML"target="_blank">About Us</a></li>
+      </ul>
+      <div style="margin-left: 15%,;padding:1px 16px;height:1000px;">
+        <h1 style= "font-family: 'Times New Roman', Times, serif; font-size: xxx-large; color: navajowhite;"><Center>The Menu</Center></h1>
+        <h3 style="font-family: Garamond, sans-serif; color: whitesmoke;"><center>Click each picture to see the drinks and food that the cafe serves.</center></p>
+      <div class="gallery">
+        <a target="_blank" href="uno.jpg">
+          <img src="uno.jpg" alt="uno" width="600" height="400">
+        </a>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="dos.jpg">
+          <img src="dos.jpg" alt="dos" width="600" height="400">
+        </a>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="tres.jpg">
+          <img src="tres.jpg" alt="tres" width="600" height="400">
+        </a>
+      </div>
+</html>
